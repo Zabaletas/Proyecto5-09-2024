@@ -1,0 +1,139 @@
+*{margin:8px}
+.caja1
+{
+    background-color: red;
+    width: 90px;   height: 50px;
+    position: absolute;
+    left: 220px;
+}
+.caja1a
+{
+    background-color: black;
+    width: 90px;   height: 50px;
+    position: absolute;
+    left: -8px;
+}
+
+.caja2
+{
+    background-color: red;
+    width: 175px;   height: 40px;
+    position: absolute;
+    left: 178px;
+    top: 40px;
+    border-radius: 90%;
+}
+.caja3
+{
+    background-color: chocolate;
+    width: 160px;   height: 30px;
+    position: relative;
+    top: 115px;
+    left: 40px;
+    transform: rotate(40deg);
+}
+.caja3a
+{
+    background-color: chocolate;
+    width: 160px;   height: 30px;
+    position: relative;
+    top: 75px;
+    left: 280px;
+    transform: rotate(135deg);
+}    
+.caja4
+{
+    background-color: rgb(6, 185, 185);
+    width: 170px;   height: 170px;
+    position: relative; /*padres*/
+    top: 70px;
+    left: 155px;
+    border-radius: 100%;
+}
+.caja4a
+{
+    background-color: black;
+    width: 20px;   height: 20px;
+    position: relative; /*padres*/
+    top: 35px;
+    left: 72px;
+    border-radius: 100%;
+}
+.caja4b
+{
+    background-color: black;
+    width: 20px;   height: 20px;
+    position: relative; /*padres*/
+    top: 45px;
+    left: 72px;
+    border-radius: 100%;
+}
+.caja4c
+{
+    background-color: black;
+    width: 20px;   height: 20px;
+    position: relative; /*padres*/
+    top: 60px;
+    left: 72px;
+    border-radius: 100%;
+}
+.caja5
+{
+    background-color: rgb(9, 212, 212);
+    width: 120px;   height: 120px;
+    position: absolute; /*hijos*/
+    left: 200px;
+    top: 55px;
+    border-radius: 100%;
+}
+.caja5a
+{
+    background-color: black;
+    width: 10px;   height: 10px;
+    position: absolute; /*hijos*/
+    left: 30px;
+    top: 35px;
+    border-radius: 100%;
+}
+.caja5b
+{
+    background-color: black;
+    width: 10px;   height: 10px;
+    position: absolute; /*hijos*/
+    left: 65px;
+    top: 35px;
+    border-radius: 100%;
+}
+.caja5c
+{
+    background-color: orange;
+    width: 25px;   height: 10px;
+    position: absolute; /*hijos*/
+    left: 45px;
+    top: 55px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 30%;
+}
+.caja5d
+{
+    background-color: red;
+    width: 45px;   height: 8px;
+    position: absolute; /*hijos*/
+    left: 30px;
+    top: 75px;
+    border-radius: 100%;
+}
+.caja6
+{
+    background-color: rgb(7, 172, 172);
+    width: 220px;   height: 220px;
+    position: relative;
+    top: 50px;
+    left: 140px;
+    border-radius: 100%;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
